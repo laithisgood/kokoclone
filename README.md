@@ -1,9 +1,19 @@
-# KokoClone
+<img width="1024" height="434" alt="image" src="https://github.com/user-attachments/assets/ec1a2079-c2c2-4132-8c02-8b05914ee7c2" />
 
-[![Hugging Face Space](https://img.shields.io/badge/🤗%20Hugging%20Face-Live%20Demo-blue)](https://huggingface.co/spaces/PatnaikAshish/kokoclone)
-[![Hugging Face Models](https://img.shields.io/badge/🤗%20Models-Repository-orange)](https://huggingface.co/PatnaikAshish/kokoclone)
-[![Python](https://img.shields.io/badge/Python-3.10+-3776AB.svg?logo=python\&logoColor=white)]
-[![License](https://img.shields.io/badge/License-Apache_2.0-green.svg)](https://opensource.org/licenses/Apache-2.0)
+<h1 align="center">KokoClone</h1>
+
+<p align="center">
+  <a href="https://huggingface.co/spaces/PatnaikAshish/kokoclone">
+    <img src="https://img.shields.io/badge/🤗%20Hugging%20Face-Live%20Demo-blue" alt="Hugging Face Space" />
+  </a>
+  <a href="https://huggingface.co/PatnaikAshish/kokoclone">
+    <img src="https://img.shields.io/badge/🤗%20Models-Repository-orange" alt="Hugging Face Models" />
+  </a>
+  <img src="https://img.shields.io/badge/Python-3.10+-3776AB.svg?logo=python&logoColor=white" alt="Python" />
+  <a href="https://opensource.org/licenses/Apache-2.0">
+    <img src="https://img.shields.io/badge/License-Apache_2.0-green.svg" alt="License" />
+  </a>
+</p>
 
 
 
